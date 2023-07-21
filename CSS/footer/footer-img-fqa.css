@@ -1,0 +1,29 @@
+.footer-img-fqa{
+   /*  border: solid 1px rgb(255, 179, 16); */
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .footer-img-fqa{
+        display: flex;
+        flex-wrap: wrap ;
+       
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .footer-img-fqa{
+        display: flex;
+        flex-wrap: wrap 
+       
+    }
+}

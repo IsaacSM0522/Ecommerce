@@ -1,0 +1,37 @@
+.header-general{
+   /*  border: solid black 2px; */
+    background-color: F6F6C9;
+}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .header-general{
+    
+        width: 100%;
+    
+        
+    }
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .header-general{
+    
+        width: 100%;
+    
+        
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .header-general{
+    
+        width: 100%;
+        
+    
+    }
+}

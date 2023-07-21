@@ -1,0 +1,55 @@
+.login{
+    
+    margin-top: 4rem;
+    padding: 0.5rem;
+    width: 10rem;
+    height: fit-content;
+
+    background-color: rgb(246, 246, 201);
+    border:solid rgb(85, 114, 155) 1px ;
+    border-radius: 5px;
+    border-color: rgb(85, 114, 155);
+    color: rgb(85, 114, 155);
+
+    text-align: center;
+    transition: 1s all;
+    
+}
+
+.login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: aliceblue;
+    background-color: rgb(9, 243, 146);
+    transform: scale(1.1) ;
+}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .login{
+    
+        margin: 1rem auto;
+        
+    }
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .login{
+    
+        margin: 1rem auto;
+        
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .login{
+    
+        margin: 1rem auto;
+        
+    }
+}

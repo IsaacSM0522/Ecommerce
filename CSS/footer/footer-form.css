@@ -1,0 +1,121 @@
+.form-contacto{
+    /* border: solid 3px rgb(255, 14, 183); */
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.input-form{
+    /* border: solid 1px rgb(255, 14, 26); */
+    background-color: #252424;
+    display: block;
+
+    margin: 2rem auto;
+    padding: 10px 25px;
+    width: 80%;
+
+    border-radius: 15px;
+} 
+
+.titulo-footer{
+    /* border: solid 1px rgb(255, 14, 26); */
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(114, 117, 122);
+}
+
+
+.button-form{
+    /* background-color: rgb(21, 202, 21); */
+    background-color: #252424;
+    border-color: black;
+    color: aliceblue;
+    margin: 2rem auto;
+    padding: .5rem;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.creado{
+    margin: 2rem;
+}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .form-contacto{
+        width: 100%;
+       
+    }
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .form-contacto{
+        width: 100%;
+       
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .form-contacto{
+        width: 100%;
+       
+    }
+}
+
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .input-form{
+        /* border: solid 1px rgb(255, 14, 26); */
+    
+        display: block;
+    
+        margin: 2rem auto;
+        padding: 10px 25px;
+        width: 80%;
+    
+        border-radius: 15px;
+    } 
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .input-form{
+        /* border: solid 1px rgb(255, 14, 26); */
+    
+        display: block;
+    
+        margin: 2rem auto;
+        padding: 10px 25px;
+        width: 80%;
+    
+        border-radius: 15px;
+    } 
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .input-form{
+        /* border: solid 1px rgb(255, 14, 26); */
+    
+        display: block;
+    
+        margin: 2rem auto;
+        padding: 10px 25px;
+        width: 80%;
+    
+        border-radius: 15px;
+    } 
+}

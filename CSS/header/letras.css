@@ -1,0 +1,26 @@
+.letras{
+    width: 10%;
+    height: 150px;
+
+    margin: 2rem auto;
+    /* border: solid rgb(230, 52, 52) 2px; */
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .letras{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .letras{
+        width: 20%;
+        margin: .3rem;
+        
+    }
+}

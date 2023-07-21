@@ -1,0 +1,51 @@
+.cajas-tenis{
+    /* border: solid 3px rgb(47, 224, 24); */
+    
+    margin: 3rem auto;
+    width: 80%;
+    height: max-content;
+    
+
+}
+
+
+.titulo-cajas{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(114, 117, 122);
+}
+
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .cajas-tenis{
+
+        width: 100%;
+    
+    }
+    
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .cajas-tenis{
+
+        width: 100%;
+    
+    }
+    
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .cajas-tenis{
+
+        width: 100%;
+    
+    }
+}
+

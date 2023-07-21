@@ -1,0 +1,38 @@
+.input-login{
+    display: block;
+
+    margin: 2rem auto;
+    padding: 10px 25px;
+    width: 80%;
+
+    border-radius: 15px;
+
+    border: solid 2px black;
+
+}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .form-login{
+      
+        
+    }
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .form-login{
+        
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .input-login{
+        padding: 10px;
+        width: 60%;
+    }
+}

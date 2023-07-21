@@ -1,0 +1,87 @@
+.caja-general{
+    /* border: solid 1px rgb(24, 134, 224); */
+    
+    margin: 2rem auto;
+
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.caja-texto{
+    border: solid 1px rgb(24, 217, 224);
+    color: rgb(24, 37, 224);
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caja-texto>h5{
+    color: rgb(224, 154, 24);
+    font-family: 'Inter', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.caja-texto > p{
+    color: rgb(224, 154, 24);
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .caja-general{
+ 
+    
+        width: fit-content;
+        height: fit-content;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .caja-general{
+    
+        width: fit-content;
+        height: fit-content;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
+
+@media screen and (min-width:320px) 
+and (max-width: 479px)
+{
+    .caja-general{
+    
+        width: fit-content;
+        height: fit-content;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}

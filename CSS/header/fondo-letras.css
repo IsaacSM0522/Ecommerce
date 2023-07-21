@@ -1,0 +1,24 @@
+/* .fondo-letras{
+
+
+
+
+
+} */
+
+/* .fondo{
+    background: rgb(226,11,163);
+    background: linear-gradient(7deg, rgba(226,11,163,1) 7%, rgba(240,226,18,1) 54%, rgba(0,212,255,1) 78%);
+   
+}
+
+
+.fondo-letras{
+   ;
+
+
+
+    background-image: url("../../images/s.jpg"), url("../../images/h.jpg"), url("../../images/o.jpg"), url("../../images/e.png"), url("../../images/b.png"), url("../../images/o.jpg"), url("../../images/x.jpg");
+    background-position: 0px 35px, 12rem 35px, 25rem 35px, 38rem 35px, 51rem 35px, 64rem 35px, 76rem 35px;  
+    background-repeat: no-repeat;
+    background-size: 10% 200px, 10% 200px, 10% 200px, 10% 200px, 10% 200px, 10% 200px, 10% 200px; */

@@ -1,0 +1,39 @@
+.container-login{
+    border: solid 3px black;
+    margin: 2rem auto;
+    padding: 15rem;
+
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(114, 117, 122);
+}
+
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px)
+{
+    .form-login{
+       
+    }
+}
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px)
+{
+    .container-login{
+        width: 85%;
+        padding: 15px;
+        
+    }
+}
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px)
+{
+    .container-login{
+        width: fit-content;
+        padding: 10px;
+        
+    }
+}
